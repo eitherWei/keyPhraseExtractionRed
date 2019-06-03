@@ -103,7 +103,7 @@ class mainMethods:
 
         dataset = pd.DataFrame()
         # initialise methods class
-        path = "/Users/stephenbradshaw/Documents/codingTest/AutomaticKeyphraseExtraction-master/data/"
+        path = ""
         methods = mainMethods(path)
         # extracts the files handles
         methods.extractFileNames(path)
